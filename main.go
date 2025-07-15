@@ -29,4 +29,5 @@ func calculatedExchange  (amount float64, sourceCurrency, targetCurrency string)
 	var result float64
 	fmt.Printf("\n (Функция рассчета вызвана с параметрами: %.2f, %s, %s)\n", amount, sourceCurrency, targetCurrency)
 	return result
+	
 }
